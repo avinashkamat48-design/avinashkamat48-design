@@ -20,8 +20,26 @@ QUEUE_TITLE = "Daily contribution queue"
 
 SEARCHES = [
     {
-        "heading": "Review candidates",
-        "query": "is:pr is:open review:none archived:false",
+        "heading": "Review candidates - AutoGen",
+        "query": "repo:microsoft/autogen is:pr is:open archived:false",
+        "sort": "updated",
+        "order": "desc",
+    },
+    {
+        "heading": "Review candidates - LangChain",
+        "query": "repo:langchain-ai/langchain is:pr is:open archived:false",
+        "sort": "updated",
+        "order": "desc",
+    },
+    {
+        "heading": "Review candidates - Cosmos DB Agent Kit",
+        "query": "repo:AzureCosmosDB/cosmosdb-agent-kit is:pr is:open archived:false",
+        "sort": "updated",
+        "order": "desc",
+    },
+    {
+        "heading": "Review candidates - frontend-junction",
+        "query": "repo:deepu0/frontend-junction is:pr is:open archived:false",
         "sort": "updated",
         "order": "desc",
     },
@@ -77,10 +95,11 @@ def search_issues(token: str, query: str, sort: str, order: str) -> list[dict]:
 
 
 def compact_item(item: dict) -> str:
+    repository = item["repository_url"].removeprefix(f"{API_ROOT}/repos/")
     labels = ", ".join(label["name"] for label in item.get("labels", [])[:3])
     comments = item.get("comments", 0)
     suffix = f" | labels: {labels}" if labels else ""
-    return f"- [{item['title']}]({item['html_url']}) | comments: {comments}{suffix}"
+    return f"- `{repository}` [{item['title']}]({item['html_url']}) | comments: {comments}{suffix}"
 
 
 def find_queue_issue(token: str, repository: str) -> int | None:
