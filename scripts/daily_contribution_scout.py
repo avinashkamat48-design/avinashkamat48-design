@@ -45,13 +45,13 @@ SEARCHES = [
     },
     {
         "heading": "Good first issues",
-        "query": 'is:issue is:open label:"good first issue" archived:false',
+        "query": 'is:issue is:open label:"good first issue" archived:false comments:<20',
         "sort": "updated",
         "order": "desc",
     },
     {
         "heading": "Documentation gaps",
-        "query": 'is:issue is:open label:documentation archived:false',
+        "query": "is:issue is:open label:documentation archived:false comments:<20",
         "sort": "updated",
         "order": "desc",
     },
