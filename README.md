@@ -14,7 +14,7 @@
 <br />
 <br />
 
-<code>software</code> // <code>open source</code> // <code>minimal interfaces</code>
+<code>software</code> // <code>open source</code> 
 
 <br />
 <br />
