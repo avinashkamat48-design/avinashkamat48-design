@@ -1,6 +1,6 @@
 <div align="center">
 
-<sub><strong>avinashkamat48-design / README.md</strong></sub>
+<sub><strong>avinashkamat48 / README.md</strong></sub>
 
 <br />
 <br />
@@ -19,11 +19,11 @@
 <br />
 <br />
 
-<a href="https://github.com/avinashkamat48-design">github</a>
+<a href="https://github.com/avinashkamat48">github</a>
 &nbsp; | &nbsp;
-<a href="https://github.com/avinashkamat48-design?tab=repositories">projects</a>
+<a href="https://github.com/avinashkamat48?tab=repositories">projects</a>
 &nbsp; | &nbsp;
-<a href="https://github.com/avinashkamat48-design?tab=overview">activity</a>
+<a href="https://github.com/avinashkamat48?tab=overview">activity</a>
 
 </div>
 
