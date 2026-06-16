@@ -5,7 +5,7 @@
 <br />
 <br />
 
-<img src="./assets/profile-banner.svg" alt="dark minimal profile banner" width="100%" />
+<img src="./assets/loves-is-girlfriend-banner.jpg" alt="loves his girlfriend banner" width="100%" />
 
 <br />
 
