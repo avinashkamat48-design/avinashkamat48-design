@@ -1,0 +1,45 @@
+<svg width="1200" height="400" viewBox="0 0 1200 400" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Minimal dark profile banner</title>
+  <desc id="desc">A dark cinematic banner with quiet code-inspired details.</desc>
+  <rect width="1200" height="400" fill="#080b10"/>
+  <rect x="0" y="0" width="1200" height="400" fill="url(#glow)" opacity="0.55"/>
+  <g opacity="0.18">
+    <path d="M0 320H1200" stroke="#8aa0b8"/>
+    <path d="M0 260H1200" stroke="#8aa0b8"/>
+    <path d="M0 200H1200" stroke="#8aa0b8"/>
+    <path d="M0 140H1200" stroke="#8aa0b8"/>
+    <path d="M140 0V400" stroke="#8aa0b8"/>
+    <path d="M300 0V400" stroke="#8aa0b8"/>
+    <path d="M460 0V400" stroke="#8aa0b8"/>
+    <path d="M620 0V400" stroke="#8aa0b8"/>
+    <path d="M780 0V400" stroke="#8aa0b8"/>
+    <path d="M940 0V400" stroke="#8aa0b8"/>
+    <path d="M1100 0V400" stroke="#8aa0b8"/>
+  </g>
+  <rect x="82" y="76" width="1036" height="248" rx="0" fill="#0e131b" stroke="#2b3544"/>
+  <rect x="112" y="106" width="430" height="188" rx="0" fill="#111827"/>
+  <rect x="146" y="136" width="230" height="12" fill="#5cc8ff" opacity="0.85"/>
+  <rect x="146" y="168" width="320" height="10" fill="#d7dde8" opacity="0.72"/>
+  <rect x="146" y="196" width="260" height="10" fill="#8b98aa" opacity="0.65"/>
+  <rect x="146" y="224" width="350" height="10" fill="#8b98aa" opacity="0.45"/>
+  <rect x="146" y="252" width="190" height="10" fill="#ff7a90" opacity="0.72"/>
+  <g transform="translate(610 108)">
+    <path d="M0 0H360V12H0V0Z" fill="#d7dde8" opacity="0.75"/>
+    <path d="M0 42H450V52H0V42Z" fill="#8b98aa" opacity="0.52"/>
+    <path d="M0 72H420V82H0V72Z" fill="#8b98aa" opacity="0.36"/>
+    <path d="M0 102H300V112H0V102Z" fill="#8b98aa" opacity="0.28"/>
+    <path d="M0 154H118V166H0V154Z" fill="#5cc8ff" opacity="0.8"/>
+    <path d="M148 154H258V166H148V154Z" fill="#d7dde8" opacity="0.6"/>
+    <path d="M288 154H372V166H288V154Z" fill="#ff7a90" opacity="0.75"/>
+  </g>
+  <circle cx="996" cy="248" r="34" fill="#111827" stroke="#2b3544"/>
+  <path d="M980 248H1012" stroke="#5cc8ff" stroke-width="4"/>
+  <path d="M996 232V264" stroke="#ff7a90" stroke-width="4"/>
+  <defs>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(210 80) rotate(22) scale(760 360)">
+      <stop stop-color="#18324a"/>
+      <stop offset="0.42" stop-color="#0b1524"/>
+      <stop offset="1" stop-color="#080b10" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>

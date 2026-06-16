@@ -1,36 +1,40 @@
 <div align="center">
 
-# era
+<sub><strong>avinashkamat48-design / README.md</strong></sub>
 
-`cse undergrad` / `minimal interfaces` / `open-source practice`
+<br />
+<br />
 
-I like building small, clean things that feel calm to use.
+<img src="./assets/profile-banner.svg" alt="dark minimal profile banner" width="100%" />
+
+<br />
+
+<sub>:3</sub>
+
+<br />
+<br />
+
+<code>software</code> // <code>open source</code> // <code>minimal interfaces</code>
+
+<br />
+<br />
+
+<a href="https://github.com/avinashkamat48-design">github</a>
+&nbsp; | &nbsp;
+<a href="https://github.com/avinashkamat48-design?tab=repositories">projects</a>
+&nbsp; | &nbsp;
+<a href="https://github.com/avinashkamat48-design?tab=overview">activity</a>
 
 </div>
 
 ---
-
-### now
-
-- learning by shipping tiny, focused pull requests
-- exploring agent workflows, frontend systems, and developer tools
-- keeping things simple enough to understand twice
-
-### stack
 
 ```txt
-typescript  react  next.js  python  git
+currently
+  shipping small, useful changes
+  learning through real open-source work
+  building calm tools and clean interfaces
+
+stack
+  typescript  react  next.js  python  git
 ```
-
-### elsewhere
-
-- profile: [avinashkamat48-design](https://github.com/avinashkamat48-design)
-- currently working through open-source issues and practical projects
-
----
-
-<div align="center">
-
-quiet code. clean screens. steady progress.
-
-</div>
